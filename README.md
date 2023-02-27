@@ -6,5 +6,20 @@ The main objective of this model is to find the relative orientation (and positi
 </p>
 
 # Demo
+![Flipped test file](https://user-images.githubusercontent.com/97121850/221673111-125f1b7c-71d6-43c7-a04e-bed0efa783ef.gif)
 
-![Flipped test file](https://user-images.githubusercontent.com/97121850/221671404-214de790-14af-4a07-b9c2-41d8f4189288.gif)
+# Dataset
+For this project, the dataset used is AFLW2000 Dataset, which consists of 2000 face images, with some information about them like the facial landmarks and the pitch, yaw, and roll values for each picture.
+
+# Solution
+1. Used the MediaPipe library to extract the face landmark, consisting of 468 points representing 2D landmarks .
+2. Performed preprocessing step to make the model independent of the face position or scale.
+3. Trained a regression model using the facial landmarks to estimate the values of the pitch, yaw, and roll.
+4. Used rotation, translation, and projection of the axes on the image to visualize the direction the person is looking at.
+5. Used the values of pitch, yaw, and roll to define the direction.
+
+# Libraries used
+1. MediaPipe
+2. Numpy
+3. OpenCV
+4. Scikit-Learn
