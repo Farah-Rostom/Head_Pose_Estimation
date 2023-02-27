@@ -6,7 +6,7 @@ The main objective of this model is to find the relative orientation (and positi
 </p>
 
 # Demo
-![Flipped test file](https://user-images.githubusercontent.com/97121850/221673111-125f1b7c-71d6-43c7-a04e-bed0efa783ef.gif)
+https://user-images.githubusercontent.com/97121850/221677815-bdb167f6-761a-4e0c-ad2c-c1e01a6aacfb.mp4
 
 # Dataset
 For this project, the dataset used is AFLW2000 Dataset, which consists of 2000 face images, with some information about them like the facial landmarks and the pitch, yaw, and roll values for each picture.
