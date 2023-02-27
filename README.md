@@ -5,3 +5,6 @@ The main objective of this model is to find the relative orientation (and positi
     <img width="700" src="https://user-images.githubusercontent.com/97121850/221661146-b65ead74-749b-4ac0-8262-e3b55b0dc400.jpg">
 </p>
 
+# Demo
+
+![Flipped test file](https://user-images.githubusercontent.com/97121850/221671404-214de790-14af-4a07-b9c2-41d8f4189288.gif)
